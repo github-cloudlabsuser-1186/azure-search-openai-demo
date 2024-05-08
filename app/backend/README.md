@@ -45,3 +45,28 @@ Deployment
 The backend application is designed to be deployed on an Azure App Service. For more details on how to deploy your application to Azure, refer to the Azure deployment guide.
 
 ```
+
+# Backend Application
+
+The backend application is built using [Quart](https://pgjones.gitlab.io/quart/), a Python framework for asynchronous web applications. The backend code is stored in the `app/backend` folder.
+
+## Requirements
+
+The backend application requires the following Python packages:
+
+- azure-core-tracing-opentelemetry==1.0.0b11
+- azure-identity==1.15.0
+- azure-keyvault-secrets==4.8.0
+- azure-monitor-opentelemetry==1.3.0
+- azure-monitor-opentelemetry-exporter==1.0.0b23
+- azure-search-documents==11.6.0b1
+- azure-storage-blob==12.19.1
+- azure-storage-file-datalake==12.14.0
+- beautifulsoup4==4.12.3
+- blinker==1.7.0
+
+For a complete list of requirements, please refer to the [requirements.txt](app/backend/requirements.txt) file.
+
+## Structure
+
+...
