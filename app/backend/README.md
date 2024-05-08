@@ -9,6 +9,14 @@ The backend application is structured as follows:
 - `app/backend/main.py`: This is the entry point of the backend application. It initializes the application and sets up the necessary routes.
 
 - `app/backend/approaches/`: This directory contains the classes powering the Chat and Ask tabs. Each class uses a different RAG (Retrieval Augmented Generation) approach to provide unique functionalities.
+This command will discover and run all test cases in the tests directory.
+
+Linting and Formatting
+The project uses Fluff for linting and Black for formatting. The configuration for these tools is located in the pyproject.toml file. To run the linter and formatter, use the following commands:
+
+Deployment
+The backend application is designed to be deployed on an Azure App Service. For more details on how to deploy your application to Azure, refer to the Azure deployment guide.
+```
 
 ## Running the Backend Locally
 
